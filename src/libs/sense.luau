@@ -697,4 +697,7 @@ function EspInterface.Unload()
 	EspInterface._hasLoaded = false;
 end
 
+EspInterface.ChamObject = ChamObject
+EspInterface.EspObject = EspObject
+
 return EspInterface;
